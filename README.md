@@ -49,4 +49,3 @@ Maintains a 93% precision rate, reducing unnecessary customer retention efforts.
 Offers SyriaTel a valuable tool for targeted interventions.
 
 The XGBoost model is well-suited for deployment and can be integrated into SyriaTel's CRM system to score customers weekly or monthly. With continued retraining on updated data, the model can adapt to evolving customer behavior and remain a reliable part of SyriaTel’s retention strategy.
-
