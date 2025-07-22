@@ -1,4 +1,4 @@
-# Churn Prediction — SyriaTel Project
+# CHURN PREDICTION — SYRIATEL PROJECT
 ## Overview
 This project focuses on predicting customer churn. It dentifies which customers are likely to leave SyriaTel, a telecommunications provider. Churn is a costly problem for telecom companies, and predicting it in advance allows businesses to take proactive measures to retain customers. Using machine learning, we aim to build a classification model that can accurately flag high-risk customers so the company can reduce churn and boost long-term profitability.
 
@@ -30,11 +30,13 @@ Model Selection: XGBoost outperformed other models in recall and precision, espe
 ## Evaluation
 We evaluated models on key classification metrics:
 
-Metric	What It Means	XGBoost Score
-Accuracy	Overall correctness	96%
-Recall (Churners)	How many actual churners we correctly identified	80%
-Precision (Churners)	Of those flagged as churners, how many really were	93%
-F1 Score (Churners)	Balance between precision and recall	86%
+-  Accuracy(96%): Overall correctness
+- Recall (Churners)(80%): How many actual churners were correctly identified
+- Precision (Churners)(93%): Of those flagged as churners, how many really were churners	
+- F1 Score (Churners)(86%): Balance between precision and recall
+
+## Confusion Matrix 
+![alt text](image.png)
 
 ## Interpretation:
 Our final model is highly accurate and reliable in flagging potential churners. It catches most of the customers likely to leave (recall), while minimizing false positives (precision). This ensures that SyriaTel can confidently take action on high-risk customers without wasting resources on those unlikely to leave.
@@ -42,10 +44,10 @@ Our final model is highly accurate and reliable in flagging potential churners. 
 ## Conclusion
 We successfully built a churn prediction model that:
 
-Identifies 80% of churners before they leave.
+- Identifies 80% of churners before they leave.
 
-Maintains a 93% precision rate, reducing unnecessary customer retention efforts.
+- Maintains a 93% precision rate, reducing unnecessary customer retention efforts.
 
-Offers SyriaTel a valuable tool for targeted interventions.
+- Offers SyriaTel a valuable tool for targeted interventions.
 
 The XGBoost model is well-suited for deployment and can be integrated into SyriaTel's CRM system to score customers weekly or monthly. With continued retraining on updated data, the model can adapt to evolving customer behavior and remain a reliable part of SyriaTel’s retention strategy.
